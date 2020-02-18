@@ -14,12 +14,22 @@
 }
 
 .squad {
+    display: flex;
+    justify-content: center;
     height: 300px;
     width: 300px;
     border: 1px solid black;
 }
 
+
+.squad p{
+    margin-top: 40%;
+    font-size: 18px;
+}
 .inputs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     margin-top: 2%;
 }
 
@@ -31,9 +41,11 @@ button {
 }
 
 input {
-    margin-top: 5px;
+    margin: 5px;
     padding: 5px;
     border: 0.1px solid black;
+    width: 10%;
+    text-align: center;
 }
 
 button{
